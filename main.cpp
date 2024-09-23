@@ -1,9 +1,42 @@
 #include <iostream>
+#include <SFML/Audio.hpp>
+#include <SFML/Graphics.hpp>
 
-using namespace std;
+int main()
+{
 
-int main() {
-    for(int i=0;i<5;i++) {
-        cout<<">:)"<<endl;
+    sf::RenderWindow window(sf::VideoMode(800, 600), "SFML window");
+
+    sf::Texture texture;
+
+    sf::Sprite sprite(texture);
+
+
+    sf::Font font;
+
+    while (window.isOpen())
+    {
+        // Process events
+        sf::Event event;
+        while (window.pollEvent(event))
+        {
+            // Close window: exit
+            if (event.type == sf::Event::Closed)
+                window.close();
+        }
+
+        // Clear screen
+        window.clear();
+
+        // Draw the sprite
+        window.draw(sprite);
+
+        // Draw the string
+
+
+        // Update the window
+        window.display();
     }
+
+    return EXIT_SUCCESS;
 }
