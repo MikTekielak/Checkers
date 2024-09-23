@@ -1,0 +1,3 @@
+C:/Users/Mikołaj/Desktop/cproj/cmake-build-debug/CMakeFiles/cproj.dir
+C:/Users/Mikołaj/Desktop/cproj/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Mikołaj/Desktop/cproj/cmake-build-debug/CMakeFiles/rebuild_cache.dir
