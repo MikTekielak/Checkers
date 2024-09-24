@@ -492,3 +492,141 @@ events:
       Running the CXX compiler's linker: "C:/Users/Miko│aj/CLion 2024.2.2/bin/mingw/bin/ld.exe" "--version"
       
 ...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/Miko\u0142aj/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "C:/Users/Miko\u0142aj/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckTypeSize.cmake:250 (check_include_file)"
+      - "cmake-build-debug/_deps/sfml-src/cmake/Config.cmake:10 (check_type_size)"
+      - "cmake-build-debug/_deps/sfml-src/CMakeLists.txt:48 (include)"
+    checks:
+      - "Looking for sys/types.h"
+    directories:
+      source: "C:/Users/Miko\u0142aj/Desktop/cproj/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-8584sk"
+      binary: "C:/Users/Miko\u0142aj/Desktop/cproj/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-8584sk"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: "x86_64"
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "HAVE_SYS_TYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Mikołaj/Desktop/cproj/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-8584sk'
+        
+        Run Build Command(s): "C:/Users/Mikołaj/CLion 2024.2.2/bin/ninja/win/x64/ninja.exe" -v cmTC_df817
+        [1/2] C:\\Users\\MIKOAJ~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_df817.dir/CheckIncludeFile.c.obj -c C:/Users/Miko┼éaj/Desktop/cproj/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-8584sk/CheckIncludeFile.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\MIKOAJ~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe   CMakeFiles/cmTC_df817.dir/CheckIncludeFile.c.obj -o cmTC_df817.exe -Wl,--out-implib,libcmTC_df817.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/Miko\u0142aj/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "C:/Users/Miko\u0142aj/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckTypeSize.cmake:251 (check_include_file)"
+      - "cmake-build-debug/_deps/sfml-src/cmake/Config.cmake:10 (check_type_size)"
+      - "cmake-build-debug/_deps/sfml-src/CMakeLists.txt:48 (include)"
+    checks:
+      - "Looking for stdint.h"
+    directories:
+      source: "C:/Users/Miko\u0142aj/Desktop/cproj/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-645kfv"
+      binary: "C:/Users/Miko\u0142aj/Desktop/cproj/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-645kfv"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: "x86_64"
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "HAVE_STDINT_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Mikołaj/Desktop/cproj/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-645kfv'
+        
+        Run Build Command(s): "C:/Users/Mikołaj/CLion 2024.2.2/bin/ninja/win/x64/ninja.exe" -v cmTC_00b33
+        [1/2] C:\\Users\\MIKOAJ~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_00b33.dir/CheckIncludeFile.c.obj -c C:/Users/Miko┼éaj/Desktop/cproj/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-645kfv/CheckIncludeFile.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\MIKOAJ~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe   CMakeFiles/cmTC_00b33.dir/CheckIncludeFile.c.obj -o cmTC_00b33.exe -Wl,--out-implib,libcmTC_00b33.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/Miko\u0142aj/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "C:/Users/Miko\u0142aj/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckTypeSize.cmake:252 (check_include_file)"
+      - "cmake-build-debug/_deps/sfml-src/cmake/Config.cmake:10 (check_type_size)"
+      - "cmake-build-debug/_deps/sfml-src/CMakeLists.txt:48 (include)"
+    checks:
+      - "Looking for stddef.h"
+    directories:
+      source: "C:/Users/Miko\u0142aj/Desktop/cproj/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-bh99lu"
+      binary: "C:/Users/Miko\u0142aj/Desktop/cproj/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-bh99lu"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: "x86_64"
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "HAVE_STDDEF_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Mikołaj/Desktop/cproj/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-bh99lu'
+        
+        Run Build Command(s): "C:/Users/Mikołaj/CLion 2024.2.2/bin/ninja/win/x64/ninja.exe" -v cmTC_55e9e
+        [1/2] C:\\Users\\MIKOAJ~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_55e9e.dir/CheckIncludeFile.c.obj -c C:/Users/Miko┼éaj/Desktop/cproj/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-bh99lu/CheckIncludeFile.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\MIKOAJ~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe   CMakeFiles/cmTC_55e9e.dir/CheckIncludeFile.c.obj -o cmTC_55e9e.exe -Wl,--out-implib,libcmTC_55e9e.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/Miko\u0142aj/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckTypeSize.cmake:146 (try_compile)"
+      - "C:/Users/Miko\u0142aj/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckTypeSize.cmake:271 (__check_type_size_impl)"
+      - "cmake-build-debug/_deps/sfml-src/cmake/Config.cmake:10 (check_type_size)"
+      - "cmake-build-debug/_deps/sfml-src/CMakeLists.txt:48 (include)"
+    checks:
+      - "Check size of void*"
+    directories:
+      source: "C:/Users/Miko\u0142aj/Desktop/cproj/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-8zlep9"
+      binary: "C:/Users/Miko\u0142aj/Desktop/cproj/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-8zlep9"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: "x86_64"
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "HAVE_SIZEOF_VOID_PTR"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Mikołaj/Desktop/cproj/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-8zlep9'
+        
+        Run Build Command(s): "C:/Users/Mikołaj/CLion 2024.2.2/bin/ninja/win/x64/ninja.exe" -v cmTC_eba0f
+        [1/2] C:\\Users\\MIKOAJ~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_eba0f.dir/SIZEOF_VOID_PTR.c.obj -c C:/Users/Miko┼éaj/Desktop/cproj/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-8zlep9/SIZEOF_VOID_PTR.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\MIKOAJ~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe   CMakeFiles/cmTC_eba0f.dir/SIZEOF_VOID_PTR.c.obj -o cmTC_eba0f.exe -Wl,--out-implib,libcmTC_eba0f.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/Miko\u0142aj/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "cmake-build-debug/_deps/sfml-src/src/SFML/Window/CMakeLists.txt:263 (check_include_file)"
+    checks:
+      - "Looking for dinput.h"
+    directories:
+      source: "C:/Users/Miko\u0142aj/Desktop/cproj/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-sxaa82"
+      binary: "C:/Users/Miko\u0142aj/Desktop/cproj/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-sxaa82"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/Miko\u0142aj/Desktop/cproj/cmake-build-debug/_deps/sfml-src/cmake/Modules/"
+      CMAKE_OSX_ARCHITECTURES: "x86_64"
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "DINPUT_H_FOUND"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Mikołaj/Desktop/cproj/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-sxaa82'
+        
+        Run Build Command(s): "C:/Users/Mikołaj/CLion 2024.2.2/bin/ninja/win/x64/ninja.exe" -v cmTC_4ece6
+        [1/2] C:\\Users\\MIKOAJ~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_4ece6.dir/CheckIncludeFile.c.obj -c C:/Users/Miko┼éaj/Desktop/cproj/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-sxaa82/CheckIncludeFile.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\MIKOAJ~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe   CMakeFiles/cmTC_4ece6.dir/CheckIncludeFile.c.obj -o cmTC_4ece6.exe -Wl,--out-implib,libcmTC_4ece6.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+...
